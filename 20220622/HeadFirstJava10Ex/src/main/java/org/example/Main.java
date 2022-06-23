@@ -27,7 +27,7 @@ public class Main {
 
         // 숫자 포매팅
         System.out.println(String.format("%,d", 1000000)); // 옛날 방식
-        System.out.printf("%,d%n", 1000000); // 요즘 사용 방식
+        System.out.printf("%,d%n", 1000); // 요즘 사용 방식
 
         // 날짜 포매팅
         System.out.println(String.format("%tr", now())); // 옛날 방식 // 정적임포트를 사용해 now()를 바로 사용
